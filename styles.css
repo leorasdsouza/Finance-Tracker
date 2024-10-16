@@ -114,6 +114,25 @@ footer.footer {
     align-items: center;
     margin: 5px 0;
 }
+#transaction-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
+}
+
+#transaction-form input, #transaction-form select {
+    flex: 1; 
+    margin: 5px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.btn {
+    flex: none; 
+    width: auto; 
+}
 
 
 
